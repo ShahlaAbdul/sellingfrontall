@@ -1,0 +1,29 @@
+nav{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+width: 100%;
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    width: 70%;
+    margin: 0 auto;
+ 
+    .header_left{
+
+    }
+    .header_right{
+        
+        ul{
+            display: flex;
+            gap: 20px;
+            .page{
+                color: black;
+            }
+            :hover{
+                color:#f16821;
+            }
+        }
+    }
+}
+}

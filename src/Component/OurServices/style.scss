@@ -1,0 +1,18 @@
+.our_services{
+    width: 70%;
+    margin: 0 auto;
+    padding: 5rem 0px;
+    .our_services_head{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .our_services_cards{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        padding: 40px 0px;
+        gap: 30px;
+    }
+}

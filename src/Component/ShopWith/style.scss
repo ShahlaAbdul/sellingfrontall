@@ -1,0 +1,47 @@
+.shop {
+    background-color: black;
+
+    .shop_with_us {
+        background-image: url("https://preview.colorlib.com/theme/selling/images/hero_2.jpg.webp");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+        background-color: black;
+        opacity: 0.7;
+        justify-content: start;
+        display: flex;
+        .shop_with_us_content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 40%;
+            color: #fff;
+            padding-left: 70px;
+            text-align: center;
+            h1 {
+                font-size: 50px;
+
+            }
+            .buttons{
+                display: flex;
+                gap: 20px;
+            }
+
+            button {
+                width: 160px;
+                padding: 10px;
+                background-color: transparent;
+                border: 2px solid #fff;
+                color: #fff;
+
+                &:hover {
+                    background-color: white;
+                    color: black;
+                    transition: all 500ms;
+                }
+            }
+        }
+    }
+}
